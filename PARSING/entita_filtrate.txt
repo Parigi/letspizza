@@ -1,0 +1,7 @@
+Tecnica
+Licenza
+Ordine
+Ingrediente
+Piatto
+Ristorante
+Pianeta
