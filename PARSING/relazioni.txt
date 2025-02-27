@@ -1,0 +1,1 @@
+{'CONTIENE': ['Piatto', 'Ingrediente'], 'PREPARATO': ['Piatto', 'Tecnica'], 'OFFERTA': ['Ristorante', 'Piatto'], 'SITUATO': ['Ristorante', 'Pianeta'], 'HA': ['Ristorante', 'Licenza']}
