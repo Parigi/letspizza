@@ -1,0 +1,57 @@
+Schema del database:
+
+Nodi:
+- Tecnica
+    Proprietà: nome
+    Proprietà: tipo 
+    Proprietà: caratteristica
+    Proprietà: uso
+    Proprietà: applicazione
+    Proprietà: effetto
+    Proprietà: descrizione
+    Proprietà: Svantaggi
+    Proprietà: Vantaggi
+    Proprietà: Tipo
+    Proprietà: comeFunziona
+- Ristorante
+    Proprietà: nome
+    Proprietà: Chef
+    Proprietà: Location
+    Proprietà: description
+    Proprietà: cucina
+    Proprietà: voto
+- Piatto
+    Proprietà: nome
+    Proprietà: numero [intero]
+- Ingrediente
+    Proprietà: nome
+    Proprietà: tipo
+    Proprietà: origine
+    Proprietà: sapore
+    Proprietà: Aspetto
+    Proprietà: Proprietà
+- Licenza
+    Proprietà: nome
+    Proprietà: Livello [intero]
+    Proprietà: Descrizione
+- Pianeta
+    Proprietà: nome
+    Proprietà: ambiente
+    Proprietà: clima
+    Proprietà: intolleranzaLattosio
+    Proprietà: intolleranza
+    Proprietà: descrizione
+    Proprietà: caratteristiche
+    Proprietà: ambiente
+    Proprietà: biomi
+    Proprietà: magia
+Relazioni e loro struttura:
+- (Ristorante)-[:OFFERTA]->(Piatto)
+- (Piatto)-[:CONTIENE]->(Ingrediente)
+- (Piatto)-[:PREPARATO]->(Tecnica)
+- (Ristorante)-[:SITUATO]->(Pianeta)
+    Proprietà: descrizione
+- (Ristorante)-[:HA]->(Licenza)
+    Proprietà: Livello
+- (Pianeta)-[:DISTANZA]->(Pianeta)
+    Proprietà: km [intero]

@@ -1,0 +1,5 @@
+(:Licenza {Livello: 3, nome: "Gravitazionale"})
+(:Piatto {numero: 1, nome: "Antipasto Celestiale"})
+(:Tecnica {nome: 'Marinatura Temporale Sincronizzata', tipo: "Marinatura", Svantaggi: 'rischi di interferenze temporali minori; vietata per uso domestico senza supervisione.', Vantaggi: 'marinatura completa in un tempo minimo, senza compromessi sulla qualità.', comeFunziona: 'sfrutta una bolla temporale sincronizzata per accelerare il processo di marinatura, comprimendo ore in minuti.'})
+Ingrediente
+Ristorante
